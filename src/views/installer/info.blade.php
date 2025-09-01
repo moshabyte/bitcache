@@ -63,5 +63,5 @@ $enabled=true;
 <form method="post" action="{{ route('install.migrate') }}" id="install-migrate">@csrf</form>
 @endsection
 @push('js')
-<script src="{{ asset('assets/js/installer.js?v=1') }}"></script>
+<script src="{{ asset('assets/installer/js/installer.js?v=1') }}"></script>
 @endpush
